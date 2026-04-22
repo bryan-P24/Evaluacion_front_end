@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0853b5;
+    background: #15422d;
     padding: 20px 40px;
     color: rgb(14, 3, 3);}
 
@@ -43,8 +43,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 100px 60px;
-    background: linear-gradient(to right, #071f3f);
-    color: white;
+    background: linear-gradient(to right, #065f46);
+    color: rgb(244, 214, 214);
 }
 
 
@@ -84,7 +84,7 @@
 
 .sobre-mi{
     padding: 80px 60px;
-    background: #584d8b;
+    background: #3e9c70;
     color: #333;
 }
 
@@ -99,14 +99,14 @@
     display: block;
     width: 60px;
     height: 4px;
-    background: rgb(245, 46, 46);
+    background: rgb(58, 18, 18);
     margin: 10px auto;
 }
 
 .subtitulo{
     text-align: center;
     margin-bottom: 50px;
-    color: gray;
+    color: rgb(27, 20, 20);
 }
 
 .contenido-sobre{
@@ -126,7 +126,7 @@
 }
 
 .datos{
-    background: rgb(216, 212, 212);
+    background: #a39494;
     padding: 25px;
     border-radius: 12px;
     width: 300px;
@@ -147,7 +147,7 @@
 /* ===== HABILIDADES ===== */
 .habilidades{
     padding: 80px 60px;
-    background: #584d8b;
+    background: #3e9c70;
 }
 
 /* TITULO */
@@ -166,14 +166,14 @@
 table{
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: #a39494;
     border-radius: 10px;
     overflow: hidden;
 }
 
 th{
     background: #1e3a5f;
-    color: white;
+    color: #ffffff;
     padding: 15px;
     text-align: left;
 }
@@ -203,7 +203,7 @@ td{
 }
 
 .card{
-    background: white;
+    background: #a39494;
     padding: 25px;
     border-radius: 12px;
     width: 300px;
@@ -242,7 +242,7 @@ td{
 /* ===== PROYECTOS ===== */
 .proyectos {
     padding: 80px 60px;
-    background: #584d8b;
+    background: #3e9c70;
 }
 
 /* GRID */
@@ -254,7 +254,7 @@ td{
 
 /* TARJETAS */
 .card-proyecto {
-    background: white;
+    background: #a39494;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
@@ -306,4 +306,65 @@ figcaption a:hover {
     .grid-proyectos {
         grid-template-columns: 1fr;
     }
+}
+
+/* ===== CONTACTO ===== */
+.contacto{
+    padding: 80px 20px;
+    background: #3e9c70;
+    text-align: center;
+}
+
+/* INFO ARRIBA */
+.info-contacto{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.info-contacto p{
+    background: #a39494;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+/* FORMULARIO */
+.formulario{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select, textarea{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f3dbdb;
+}
+
+textarea{
+    height: 100px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 12px;
+    background: #0853b5;
+    color: #a39494;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: orange;
 }
